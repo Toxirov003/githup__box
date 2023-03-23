@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&family=Paytone+One&family=Roboto:wght@400;500;700;900&family=Source+Code+Pro:ital,wght@0,400;0,700;1,300&display=swap');
+
+.asistant{font-family: 'Assistant', sans-serif;}
+.paytone {
+    font-family: 'Paytone One', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.succer{
+    font-family: 'Source Code Pro', monospace;
+}
+/* body qismi */
+body{
+    background-color: #e5f9ff;
+}
+.color{
+    background-color:  #f2f2f2;
+}
+.img__head{
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 25%;
+   margin-top: 35%;
+    
+
+}
+
+.fixed{
+   
+    color: blue;
+    display: fixed;
+    position: fixed;
+    justify-content:center ;
+    width: 30%;
+    align-items: center;
+   
+    flex-direction: column;
+    left: 0;
+    background-image: url(../image/landspaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 0;
+   
+}
+   @media (max-width=760px) {
+    .fixed{
+        position: relative;
+        height: 50vh;
+        width: 100%;
+     
+    }
+
+    hr{
+        display:block;
+     }
+    
+   }
+main{
+    padding-left:33% ;
+
+}
+hr{
+    display: none;
+}
+
+.nav{
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.navbar__nav .nav:hover{
+    transform: scale(1.2);
+    
+}
+.house{
+    box-sizing: border-box;
+}
+.house img{
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+.house img:hover{
+    transform: scale(1.1);
+}
+.house h1{
+    text-align: center;
+    color:#33bbff ;
+    
+
+}
+.house p{
+    opacity:0.7 ;
+}
+ .house button{
+    background-color:blue;
+    border: none;
+    transition: all 1s ease;
+    border-radius: 2.5rem;
+    height: 2rem;
+}
+.house button:hover{
+    transform: scale(1.1);
+    background-color: #00aaff;
+    color: black;
+}
